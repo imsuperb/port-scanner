@@ -18,7 +18,7 @@ jobs:
     name: Ragas regression check
     runs-on: ubuntu-latest
     timeout-minutes: 30
-    if: ${{ github.repository == 'moazmo/secureagentrag' }}
+    if: ${{ github.repository == 'LeroyS041/secureagentrag' }}
 
     steps:
       - name: Checkout

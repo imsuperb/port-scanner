@@ -7,9 +7,9 @@
 
 | Check | Result |
 |---|---|
-| Account signup (no CC required) | ✅ Owner signed up with GitHub OAuth (account `moazmo`) |
+| Account signup (no CC required) | ✅ Owner signed up with GitHub OAuth (account `LeroyS041`) |
 | Hobby plan auto-assigned | ✅ `billing.plan: "hobby"`, `billing.status: "active"` |
-| Email matches | ✅ `moazmo27@gmail.com` |
+| Email matches | ✅ `40397628+LeroyS041@users.noreply.github.com` |
 | Access token created | ✅ `vcp_5J99…fm1x4OzL1L` saved as `VERCEL_TOKEN` in `.env` |
 | `GET /v2/user` from Egypt | ✅ HTTP 200 |
 | Deployment created via REST (no CLI, no git push) | ✅ `dpl_HkGUbbL6Wfpb5fTwGKwdwBPQx6BL` (`secureagentrag-smoke`) |
@@ -48,14 +48,14 @@ The full Next.js frontend (phase 4) will use this same API plus `vercel build` l
 1. **Vercel Hobby plan in 2026 does not require a credit card.** GitHub OAuth signup landed the owner on `billing.plan: hobby` without any payment prompt.
 2. **REST-only deploy works.** No `vercel` CLI install, no local Node build — we ship inline HTML through the API. This is the pattern we will use for the Next.js frontend deploy in phase 4 (pre-build locally, then push the build artifact via API).
 3. **Egypt → Vercel is fast.** Sub-second TTFB. Static pages will serve from Vercel's edge network — well within the "no cold start" demo budget.
-4. **Project alias claimed.** `secureagentrag-smoke.vercel.app` is now permanently owned by the `moazmo` Vercel account. Phase 4 will reuse the same pattern with project name `secureagentrag`.
+4. **Project alias claimed.** `secureagentrag-smoke.vercel.app` is now permanently owned by the `LeroyS041` Vercel account. Phase 4 will reuse the same pattern with project name `secureagentrag`.
 
 ## Credentials stored
 
 `.env` (gitignored) now contains:
 
 - `VERCEL_TOKEN` — full-account access token
-- `VERCEL_USERNAME` — `moazmo`
+- `VERCEL_USERNAME` — `LeroyS041`
 - `VERCEL_PROJECT_SMOKE` — `secureagentrag-smoke`
 
 ## Cleanup notes

@@ -119,10 +119,10 @@ short_description: Privacy-first multi-agent RAG backend with RBAC, faithfulness
 
 # SecureAgentRAG API
 
-FastAPI backend for the [secureagentrag](https://github.com/moazmo/secureagentrag) demo.
+FastAPI backend for the [secureagentrag](https://github.com/LeroyS041/secureagentrag) demo.
 
 Frontend: https://secureagentrag.vercel.app
-Source code: https://github.com/moazmo/secureagentrag
+Source code: https://github.com/LeroyS041/secureagentrag
 ```
 
 This file lives at the **HF Space repo root**, not in the GitHub repo.

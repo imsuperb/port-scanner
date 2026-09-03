@@ -46,7 +46,7 @@ Custom domains on Vercel Hobby are free — confirmed in `01-stack-decisions.md`
 https://eilm.live/                        Hostinger static landing (replaces old project's index)
 https://app.eilm.live/                    Vercel — CNAME to cname.vercel-dns.com (custom Vercel domain)
 https://LeomordKaly-secureagentrag-api.hf.space/    HF Space backend (unchanged)
-https://github.com/moazmo/secureagentrag  Source code
+https://github.com/LeroyS041/secureagentrag  Source code
 ```
 
 Optional later: `https://api.eilm.live/` CNAME → HF Space subdomain. Requires HF Pro for custom domain on the Space, so skipped — visitors hit the backend through the Vercel frontend anyway and never see the `.hf.space` URL.

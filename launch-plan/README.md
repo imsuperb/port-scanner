@@ -4,7 +4,7 @@
 >
 > **Status:** plan accepted 2026-05-25 — pre-implementation. Smoke tests pending.
 >
-> **Owner:** Moaz Muhammad (`moazmo27@gmail.com`, GitHub `moazmo`).
+> **Owner:** Moaz Muhammad (`40397628+LeroyS041@users.noreply.github.com`, GitHub `LeroyS041`).
 >
 > **Constraints (hard):** zero USD, no credit card at signup, available in Egypt, no Render-style 15-min cold start.
 

@@ -17,7 +17,7 @@ The hero story is four things most RAG demos skip:
 3. **Corrective RAG + NLI faithfulness gate** — Cited sentences are re-checked for entailment against the source chunk. Unsupported claims are flagged or dropped.
 4. **Tamper-evident audit chain + SLO deadline** — SHA-256 hash chain across JSONL entries; `SAR_REQUEST_TIMEOUT_S` bounds the whole pipeline.
 
-Owner: `moazmo` / `moazmo27@gmail.com`. License: MIT.
+Owner: `LeroyS041` / `40397628+LeroyS041@users.noreply.github.com`. License: MIT.
 
 ---
 

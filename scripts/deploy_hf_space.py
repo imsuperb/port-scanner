@@ -54,10 +54,10 @@ short_description: Privacy-first multi-agent RAG (BYOK demo)
 
 # SecureAgentRAG API
 
-Production backend for the [SecureAgentRAG](https://github.com/moazmo/secureagentrag) public demo.
+Production backend for the [SecureAgentRAG](https://github.com/LeroyS041/secureagentrag) public demo.
 
 - **Frontend:** https://secureagentrag-web.vercel.app
-- **Source:** https://github.com/moazmo/secureagentrag (branch `deploy/prod-launch`)
+- **Source:** https://github.com/LeroyS041/secureagentrag (branch `deploy/prod-launch`)
 - **License:** MIT
 
 This Space hosts the FastAPI surface only. The Streamlit UI on `main`

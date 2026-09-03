@@ -66,7 +66,7 @@ These ship in the `launch-plan/landing-assets/` directory of this branch first, 
 <header class="hero">
   <nav>
     <a href="#" class="logo">SecureAgentRAG</a>
-    <a href="https://github.com/moazmo/secureagentrag" target="_blank" rel="noopener">GitHub</a>
+    <a href="https://github.com/LeroyS041/secureagentrag" target="_blank" rel="noopener">GitHub</a>
   </nav>
   <div class="hero-content">
     <h1>Privacy-first multi-agent RAG</h1>
@@ -77,7 +77,7 @@ These ship in the `launch-plan/landing-assets/` directory of this branch first, 
     </p>
     <div class="cta-row">
       <a class="cta-primary" href="https://app.eilm.live">Open live demo →</a>
-      <a class="cta-secondary" href="https://github.com/moazmo/secureagentrag">View source</a>
+      <a class="cta-secondary" href="https://github.com/LeroyS041/secureagentrag">View source</a>
     </div>
   </div>
 </header>
@@ -130,7 +130,7 @@ These ship in the `launch-plan/landing-assets/` directory of this branch first, 
 </section>
 
 <footer>
-  <p>Built by <a href="https://github.com/moazmo">Moaz Muhammad</a> · MIT licensed</p>
+  <p>Built by <a href="https://github.com/LeroyS041">Moaz Muhammad</a> · MIT licensed</p>
 </footer>
 
 </body>

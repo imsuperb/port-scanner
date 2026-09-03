@@ -489,7 +489,7 @@ default Proactor.
 
 **Context:**
 The initial JWT layer (ADR-equivalent in [feat(auth): HS256-signed JWT
-bearer tokens](https://github.com/moazmo/secureagentrag/commit/025ce73))
+bearer tokens](https://github.com/LeroyS041/secureagentrag/commit/025ce73))
 verified tokens with a shared HMAC secret. That secret has to live on
 both the API server and every token issuer, which is fine for a single-
 process demo but rules out external IdPs and key rotation across
@@ -998,7 +998,7 @@ Build a **Next.js 16 App Router frontend with Tailwind v4 + SSE
 streaming**, deployed to **Vercel Hobby plan**. Streamlit remains in the
 repo for local development; it is no longer the public face of the demo.
 
-- Sibling repo: ``github.com/moazmo/secureagentrag-web``
+- Sibling repo: ``github.com/LeroyS041/secureagentrag-web``
 - URL: ``secureagentrag-web.vercel.app`` (Hostinger custom-domain detour
   cancelled 2026-05-27)
 - Streaming: Vercel Edge runtime proxy with ``duplex: "half"`` so the

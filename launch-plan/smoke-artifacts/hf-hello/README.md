@@ -13,7 +13,7 @@ short_description: Phase 1 smoke test for the SecureAgentRAG production launch
 
 Hello-world FastAPI proving HF Docker SDK build + CPU Basic free tier + port 7860 reachability from Egypt.
 
-Real backend lands in Phase 2 — see [launch plan](https://github.com/moazmo/secureagentrag/blob/deploy/prod-launch/launch-plan/03-backend-byok.md).
+Real backend lands in Phase 2 — see [launch plan](https://github.com/LeroyS041/secureagentrag/blob/deploy/prod-launch/launch-plan/03-backend-byok.md).
 
 ## Endpoints
 
@@ -22,4 +22,4 @@ Real backend lands in Phase 2 — see [launch plan](https://github.com/moazmo/se
 
 ## Source
 
-[github.com/moazmo/secureagentrag](https://github.com/moazmo/secureagentrag) — branch `deploy/prod-launch`.
+[github.com/LeroyS041/secureagentrag](https://github.com/LeroyS041/secureagentrag) — branch `deploy/prod-launch`.

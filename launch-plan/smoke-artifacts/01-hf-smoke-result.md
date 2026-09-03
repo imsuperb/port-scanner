@@ -7,7 +7,7 @@
 
 | Check | Result |
 |---|---|
-| Account signup (no CC required) | ✅ `LeomordKaly` (email `moazmo27@gmail.com`), `canPay: False`, `plan: None` — confirms free tier with no card on file |
+| Account signup (no CC required) | ✅ `LeomordKaly` (email `40397628+LeroyS041@users.noreply.github.com`), `canPay: False`, `plan: None` — confirms free tier with no card on file |
 | Write-scope access token | ✅ `hf_pyrM…tdiO` (truncated for log) |
 | Space creation via `HfApi.create_repo` | ✅ `https://huggingface.co/spaces/LeomordKaly/secureagentrag-api` |
 | Docker SDK + CPU Basic auto-assigned | ✅ `hardware=cpu-basic` (2 vCPU, 16 GB RAM) |
@@ -49,9 +49,9 @@ Upload commit on Space repo: `17d9fadbe279aaa2e69b4da7c72b2d7f9655f16f`
 
 ## Important note on username
 
-The plan in `launch-plan/` was drafted assuming HF username `moazmo` to match the GitHub identity. The actual HF account is `LeomordKaly`. All HF-related URLs in the plan need updating from `moazmo-secureagentrag-api.hf.space` to `LeomordKaly-secureagentrag-api.hf.space`. This is a doc-only change — no code impact — and is being applied in the same commit that lands this smoke result.
+The plan in `launch-plan/` was drafted assuming HF username `LeroyS041` to match the GitHub identity. The actual HF account is `LeomordKaly`. All HF-related URLs in the plan need updating from `LeroyS041-secureagentrag-api.hf.space` to `LeomordKaly-secureagentrag-api.hf.space`. This is a doc-only change — no code impact — and is being applied in the same commit that lands this smoke result.
 
-GitHub identity remains `moazmo` (`moazmo27@gmail.com`). HF identity is `LeomordKaly` (same email).
+GitHub identity remains `LeroyS041` (`40397628+LeroyS041@users.noreply.github.com`). HF identity is `LeomordKaly` (same email).
 
 ## Next phase
 

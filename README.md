@@ -1,48 +1,5 @@
 # SecureAgentRAG
 
-> **🚀 Live demo:** [secureagentrag-web.vercel.app](https://secureagentrag-web.vercel.app) · **API:** [`LeomordKaly-secureagentrag-api.hf.space`](https://LeomordKaly-secureagentrag-api.hf.space/healthz) · **Cost:** $0/mo · **Egypt-tested · no credit card · no cold-start delay**
->
-> ⚙️ **Production launch shipped + merged to `main`** (2026-05-28, tagged **`v1.0.0-launch`**, CI green). Public BYOK demo on Next.js 16 + Vercel + Hugging Face Spaces + Qdrant Cloud + Groq Free Tier. SSE streaming, session-scoped uploads (dual-collection RRF), persona presets, X-Forwarded-For throttle, audit export, in-chat knowledge-base browser, Markdown answer rendering, 50%+ Groq RPM cut. **718 unit tests + 2 live-Qdrant integration tests**, **41 ADRs**. Post-launch hardening added Prometheus/Grafana observability (ADR-031), fail-closed auth + scheduled audit-chain verify + frontend security headers (ADR-032), batched faithfulness + a real-Qdrant CI job + Node-24 actions + selective guardrails (ADR-033), and a streaming rate-limit fix. 101-second demo video at the top of this README. See [`DECISIONS.md`](./DECISIONS.md) for all 41 ADRs.
-
-## 🎬 Demo video (101s)
-
-Real-page walkthrough — RBAC personas, token-by-token streaming, inline citations, the in-chat knowledge base, uploads, and the SHA-256 audit chain. Built with Remotion from live screen captures.
-
-https://github.com/user-attachments/assets/fd464702-9f6f-4fb0-8560-c5513d9adfc6
-
-▶️ **[Full 1080p download](https://github.com/moazmo/secureagentrag/releases/download/v1.0.0-launch/secureagentrag-demo.mp4)** · or **[try it live](https://secureagentrag-web.vercel.app)** yourself.
-
-## What the live demo does
-
-1. **You pick a persona** (engineer / compliance / executive) → RBAC + clearance get applied to every Qdrant search.
-2. **You ask a question** → 9 LangGraph nodes run end-to-end with token-by-token SSE streaming.
-3. **The UI shows you the proof** — trace pills for every node, citation chips with source/page/score, NLI faithfulness percentage, query rewrite if it fired, SHA-256-chained audit log downloadable as JSONL.
-4. **Switch personas + re-ask** → some chunks vanish from the citations panel. That's the RBAC filter at the Qdrant payload layer — same query, different access.
-
-```bash
-# Try it locally without paying anything:
-curl -X POST https://LeomordKaly-secureagentrag-api.hf.space/byok/chat \
-  -H 'Content-Type: application/json' \
-  -H 'X-Demo-Persona: compliance' \
-  -H 'X-Session-ID: try-it-001' \
-  -d '{"query":"What MFA controls does the security policy mandate?","prefer_cloud":true}'
-```
-
-<div align="center">
-
-**Privacy-First Multi-Agent RAG with RBAC, Corrective Retrieval, and Hybrid Inference**
-
-[![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Docker Ready](https://img.shields.io/badge/Docker-Ready-2496ED.svg)](docker-compose.yml)
-[![Code style: ruff](https://img.shields.io/badge/code%20style-ruff-000000.svg)](https://github.com/astral-sh/ruff)
-[![uv](https://img.shields.io/badge/package%20manager-uv-blueviolet.svg)](https://github.com/astral-sh/uv)
-[![LangGraph](https://img.shields.io/badge/orchestration-LangGraph-orange.svg)](https://github.com/langchain-ai/langgraph)
-
-</div>
-
----
-
 ## Overview
 
 **SecureAgentRAG** is a production-grade Retrieval-Augmented Generation platform built around three core principles: **privacy-first architecture**, **enterprise-grade access control**, and **self-correcting retrieval**. It demonstrates how to build a real-world RAG system that enforces role-based document access at the vector database level, routes sensitive data exclusively through local inference, and automatically refines its retrieval when document relevance is insufficient.
@@ -272,7 +229,7 @@ Grafana auto-provisions the Prometheus datasource and the dashboard from [`deplo
 
 ```bash
 # Clone the repository
-git clone https://github.com/moazmo/secureagentrag.git
+git clone https://github.com/LeroyS041/secureagentrag.git
 cd secureagentrag
 
 # Install dependencies with uv
@@ -687,7 +644,7 @@ Key design choices are documented in [DECISIONS.md](DECISIONS.md). Highlights:
 
 ## Status
 
-Production-ready and **live**. The public BYOK demo runs at $0/month on Vercel + Hugging Face Spaces + Qdrant Cloud + Groq Free Tier; **718 unit tests + a live-Qdrant integration job** pass in CI; **41 ADRs** document every decision in [DECISIONS.md](DECISIONS.md). Tagged [`v1.0.0-launch`](https://github.com/moazmo/secureagentrag/releases/tag/v1.0.0-launch), hardened since with post-launch waves (observability, security, coverage, rate-limit) and a full-repo review remediation that wired BYOK so a visitor's own key actually powers their request. Full feature breadth is in the feature table above and the ADR list below.
+Production-ready and **live**. The public BYOK demo runs at $0/month on Vercel + Hugging Face Spaces + Qdrant Cloud + Groq Free Tier; **718 unit tests + a live-Qdrant integration job** pass in CI; **41 ADRs** document every decision in [DECISIONS.md](DECISIONS.md). Tagged [`v1.0.0-launch`](https://github.com/LeroyS041/secureagentrag/releases/tag/v1.0.0-launch), hardened since with post-launch waves (observability, security, coverage, rate-limit) and a full-repo review remediation that wired BYOK so a visitor's own key actually powers their request. Full feature breadth is in the feature table above and the ADR list below.
 
 ## License
 
@@ -697,4 +654,4 @@ MIT License — see [LICENSE](LICENSE) for details.
 
 ## Author
 
-Built by **Moaz Muhammad** — [GitHub](https://github.com/moazmo)
+Built by **Moaz Muhammad** — [GitHub](https://github.com/LeroyS041)

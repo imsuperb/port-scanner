@@ -55,7 +55,7 @@ SecureAgentRAG is a privacy-first, multi-agent, RAG platform built around four p
 
 ## Repo personnel / handoff
 
-- **Owner:** Moaz Muhammad (`moazmo27@gmail.com`, GitHub `moazmo`)
+- **Owner:** Moaz Muhammad (`40397628+LeroyS041@users.noreply.github.com`, GitHub `LeroyS041`)
 - **Commits must show owner identity** — no AI co-author footers (per global instructions in `~/.claude/CLAUDE.md`)
 - **Private files** the agent has access to and must keep updated: `.env`, `INTERVIEW_DEFENSE.md`, `CV_BLURB.md`, `private/roadmap.md`, `NOTES.md`, `TODO.md`
 - **Files that must NEVER be modified outside their normal flow:** `audit_logs/*.jsonl` (hash chain), `data/checkpoints.sqlite` (LangGraph state), `uv.lock` (only via `uv` commands), `data/checkpoints/reranker-domain-v1/` (2.27 GB safetensors, gitignored)

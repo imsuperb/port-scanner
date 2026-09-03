@@ -20,7 +20,7 @@ Operational guide for running, testing, and debugging the platform.
 
 ```bash
 # Clone + install
-git clone https://github.com/moazmo/secureagentrag.git
+git clone https://github.com/LeroyS041/secureagentrag.git
 cd secureagentrag
 uv sync
 
@@ -337,7 +337,7 @@ requests normal.
 
 **Mitigation:** GitHub Actions cron at 03:17 UTC daily hits `/healthz`
 + a tiny `/byok/chat`. Check
-`https://github.com/moazmo/secureagentrag/actions/workflows/keepalive.yml`
+`https://github.com/LeroyS041/secureagentrag/actions/workflows/keepalive.yml`
 — if the last run failed, the next chat will cold-start.
 
 **Manual nudge:**

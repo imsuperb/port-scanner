@@ -9,7 +9,7 @@
 
 | Check | Result |
 |---|---|
-| GitHub sibling repo created | ✅ `github.com/moazmo/secureagentrag-web` |
+| GitHub sibling repo created | ✅ `github.com/LeroyS041/secureagentrag-web` |
 | Next.js 16 + TypeScript + Tailwind v4 scaffold | ✅ via `create-next-app` |
 | BYOK localStorage + persona switcher + chat UI | ✅ single-page `src/app/page.tsx` |
 | Edge function `/api/chat` proxy to HF Space | ✅ `src/app/api/chat/route.ts` |
@@ -86,7 +86,7 @@ package.json             # next@16.2.6, react@19.2.4, tailwindcss v4
 `vercel --token ... --prod --yes` rejected with `missing_scope` because
 the token belongs to a personal team and the CLI refused to auto-pick.
 
-Resolution: added `--scope moazmos-projects` to the command. For future
+Resolution: added `--scope LeroyS041s-projects` to the command. For future
 deploys via CI, set `VERCEL_ORG_ID=team_8pIDB0DVrfmzYXkduBth1BFh` in env
 to make this implicit.
 
@@ -112,7 +112,7 @@ after the deploy completed. No token persisted to disk.
 # from secureagentrag-web/ on a checkout with .env carrying VERCEL_TOKEN
 npx vercel --token "$VERCEL_TOKEN" \
            --prod --yes \
-           --scope moazmos-projects
+           --scope LeroyS041s-projects
 ```
 
 ## Smoke commands from local machine

@@ -34,7 +34,7 @@ A modern, dark-first, single-page Next.js 15 app deployed to Vercel that:
 
 The Next.js app lives in a sibling repo: `secureagentrag-web`. Reason: keeping it inside the Python repo confuses Vercel auto-detection and forces a monorepo config. Sibling repo with a CI badge in the main repo's README is cleaner.
 
-**To be created:** `https://github.com/moazmo/secureagentrag-web`
+**To be created:** `https://github.com/LeroyS041/secureagentrag-web`
 
 This launch plan's `05-nextjs-frontend.md` is the single spec for that sibling repo; do not create it inside the Python repo.
 

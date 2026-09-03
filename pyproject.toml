@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "Privacy-First, Multi-Agent, Production-Grade RAG Platform"
 readme = "README.md"
 license = { text = "MIT" }
-authors = [{ name = "Moaz Muhammad", email = "moazmo@users.noreply.github.com" }]
+authors = [{ name = "Moaz Muhammad", email = "LeroyS041@users.noreply.github.com" }]
 requires-python = ">=3.11,<3.14"
 dependencies = [
     "langgraph>=0.2.0",

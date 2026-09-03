@@ -25,7 +25,7 @@ Streamlit on HF Spaces is technically possible but:
 
 Build a **Next.js 15 App Router frontend with shadcn/ui + Tailwind v4 + Vercel AI SDK**, deployed to **Vercel Hobby plan**. Streamlit remains in the repo for local development but is not the public face of the demo.
 
-- Repo: separate sibling repo `secureagentrag-web` at `github.com/moazmo/secureagentrag-web`
+- Repo: separate sibling repo `secureagentrag-web` at `github.com/LeroyS041/secureagentrag-web`
 - Deploy: Vercel free Hobby plan
 - URL: `app.eilm.live`
 - Streaming: Vercel AI SDK `useChat` hook over SSE bridged to the FastAPI streaming endpoint

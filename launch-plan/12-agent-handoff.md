@@ -4,7 +4,7 @@ This document is the **operating contract** for any AI agent that continues this
 
 ## Identity rules
 
-- **The repo owner is Moaz Muhammad** (`moazmo27@gmail.com`, GitHub `moazmo`)
+- **The repo owner is Moaz Muhammad** (`40397628+LeroyS041@users.noreply.github.com`, GitHub `LeroyS041`)
 - Every commit must be authored by the owner
 - **No AI co-author footers in commits or PRs.** Do not add `Co-Authored-By: Claude`, `Co-Authored-By: Hermes`, `Co-Authored-By: <any AI>`, or any equivalent
 - No "Generated with [AI Tool]" lines in commit bodies

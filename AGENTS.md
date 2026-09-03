@@ -10,7 +10,7 @@ This file tells AI agents (Hermes / Kimi / Claude Code / Cursor / Aider) how to 
 
 ## 0. Identity and authorship
 
-- The repo owner is `moazmo` (`moazmo27@gmail.com`).
+- The repo owner is `LeroyS041` (`40397628+LeroyS041@users.noreply.github.com`).
 - **Never** add AI attribution to commits, PRs, or code (no "Co-Authored-By: Claude / Hermes / Kimi", no "Generated with X" footers).
 - Commit author must be the owner. If you are running locally as that user, git will get it right automatically.
 

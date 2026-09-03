@@ -62,7 +62,7 @@ The video proves the four "production patterns most demos skip" claim in under 4
 
 - Back to the landing page
 - Show the GitHub link
-- Voice-over: "29 thousand lines of Python, 487 tests, 24 architecture decision records. Source at github.com/moazmo/secureagentrag."
+- Voice-over: "29 thousand lines of Python, 487 tests, 24 architecture decision records. Source at github.com/LeroyS041/secureagentrag."
 
 ## Tools
 

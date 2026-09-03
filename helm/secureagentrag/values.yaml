@@ -2,7 +2,7 @@
 replicaCount: 1
 
 image:
-  repository: ghcr.io/moazmo/secureagentrag
+  repository: ghcr.io/LeroyS041/secureagentrag
   pullPolicy: IfNotPresent
   tag: "latest"
 

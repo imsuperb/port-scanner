@@ -19,7 +19,7 @@ Free-tier policies change. "No credit card" today may be "credit card after firs
 ### Steps
 
 1. Open `https://huggingface.co/join` in an incognito window
-2. Sign up with `moazmo27@gmail.com` (or owner's preferred email)
+2. Sign up with `40397628+LeroyS041@users.noreply.github.com` (or owner's preferred email)
 3. **Verify: no credit card field appears at signup.** If it does, abort and switch to Northflank backup
 4. Confirm email
 5. Generate an access token at `https://huggingface.co/settings/tokens` with `write` scope. Save as `HF_TOKEN` in `.env` (added below in agent step)
@@ -122,7 +122,7 @@ Free-tier policies change. "No credit card" today may be "credit card after firs
 ### Steps
 
 1. Open `https://vercel.com/signup` in incognito
-2. Sign up with GitHub OAuth (use `moazmo` GitHub account)
+2. Sign up with GitHub OAuth (use `LeroyS041` GitHub account)
 3. **Verify: Hobby plan auto-selected, no credit card prompt.** If CC asked, abort and use Cloudflare Pages or fall back to static export on Hostinger
 4. From local terminal:
    ```bash
