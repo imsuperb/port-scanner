@@ -649,9 +649,3 @@ Production-ready and **live**. The public BYOK demo runs at $0/month on Vercel +
 ## License
 
 MIT License — see [LICENSE](LICENSE) for details.
-
----
-
-## Author
-
-Built by **Moaz Muhammad** — [GitHub](https://github.com/LeroyS041)
